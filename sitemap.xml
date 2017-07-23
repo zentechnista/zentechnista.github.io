@@ -41,12 +41,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/lifeintech/</loc>
     <lastmod>2017-07-23T00:49:02-04:00</lastmod>
     <priority>0</priority>
@@ -66,6 +60,12 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2017-07-23T00:49:02-04:00</lastmod>
     <priority>0</priority>
   </url>
