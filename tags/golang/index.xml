@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Ivy Fibonacci</title>
+    <link>https://github.com/zentechnista/ivy-fibonacci/tags/golang/</link>
+    <description>Recent content in Golang on Ivy Fibonacci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jul 2017 00:48:30 -0400</lastBuildDate>
+    
+	<atom:link href="https://github.com/zentechnista/ivy-fibonacci/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sprints, Marathons, and Code</title>
+      <link>https://github.com/zentechnista/ivy-fibonacci/2017/07/sprints-marathons-and-code/</link>
+      <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
+      
+      <guid>https://github.com/zentechnista/ivy-fibonacci/2017/07/sprints-marathons-and-code/</guid>
+      <description>&lt;p&gt;Roughly about 3 months ago to the day, I made an exciting decision to leave my previous job to join an e-commerce and social analytics startup. It wasn&amp;rsquo;t a particularly difficult decision - I&amp;rsquo;m pretty sure wanting to hide under a rock ever Monday morning is &lt;em&gt;not&lt;/em&gt; a great sign that you&amp;rsquo;re enjoying your current position - but still, it represented a level of change that was both fun and intimidating.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

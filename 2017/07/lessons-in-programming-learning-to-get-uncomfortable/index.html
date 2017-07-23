@@ -1,0 +1,707 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.25.1">
+    <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
+    <title>Lessons in Programming: Learning To Get Uncomfortable</title>
+    <meta name="author" content="Ivy DeWitt">
+    <meta name="keywords" content="tech">
+
+    <link rel="icon" href="https://github.com/zentechnista/ivy-fibonacci/favicon.png">
+    
+
+    
+    <meta name="description" content="&ldquo;Learning to get uncomfortable.&rdquo; Kind of a weird article topic for a blog post right? There&rsquo;s tons of articles on FOMO (Fear of Missing Out for the uninitiated), ignoring FOMO, sticking on the path of mastery, never giving up, knowing how to give up, etc.
+
+">
+    <meta property="og:description" content="&ldquo;Learning to get uncomfortable.&rdquo; Kind of a weird article topic for a blog post right? There&rsquo;s tons of articles on FOMO (Fear of Missing Out for the uninitiated), ignoring FOMO, sticking on the path of mastery, never giving up, knowing how to give up, etc.
+
+">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Lessons in Programming: Learning To Get Uncomfortable">
+    <meta property="og:url" content="/2017/07/lessons-in-programming-learning-to-get-uncomfortable/">
+    <meta property="og:site_name" content="Ivy Fibonacci">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Ivy Fibonacci">
+    <meta name="twitter:description" content="&ldquo;Learning to get uncomfortable.&rdquo; Kind of a weird article topic for a blog post right? There&rsquo;s tons of articles on FOMO (Fear of Missing Out for the uninitiated), ignoring FOMO, sticking on the path of mastery, never giving up, knowing how to give up, etc.
+
+">
+    
+      <meta name="twitter:creator" content="@zentechnista">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/c2c4f86b33c14ee5e3cbdcd169473d8a?s=640">
+    
+
+    
+      <meta property="og:image" content="http://res.cloudinary.com/dgyz97es2/image/upload/t_media_lib_thumb/v1500787430/robert-wiedemann-177442_jur2of.jpg">
+    
+    
+      <meta property="og:image" content="http://res.cloudinary.com/dgyz97es2/image/upload/v1500787430/robert-wiedemann-177442_jur2of.jpg">
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" />
+    
+    
+    <link rel="stylesheet" href="https://github.com/zentechnista/ivy-fibonacci/css/style-u6mk0ojoywresbx8iepslrmmhl4stuhrsxuwhkpwrkrx7mryjcaimasnk4pi.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://github.com/zentechnista/ivy-fibonacci/">Ivy Fibonacci</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://github.com/zentechnista/ivy-fibonacci/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="//www.gravatar.com/avatar/c2c4f86b33c14ee5e3cbdcd169473d8a?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://github.com/zentechnista/ivy-fibonacci/#about">
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/c2c4f86b33c14ee5e3cbdcd169473d8a?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Ivy DeWitt</h4>
+        
+          <h5 class="sidebar-profile-bio">Gopher, Pythonista, and proud Pomeranian-Sheltie owner.</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/zentechnista/ivy-fibonacci/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-align-left"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/zentechnista/ivy-fibonacci/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/zentechnista/ivy-fibonacci/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/zentechnista/ivy-fibonacci/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-info"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/zentechnista/ivy-fibonacci/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/zentechnista" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/ivyleadewitt/" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+      
+      <span class="sidebar-button-desc">LinkedIn</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/zentechnista" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-center
+              "
+       style="background-image:url('http://res.cloudinary.com/dgyz97es2/image/upload/v1500787430/robert-wiedemann-177442_jur2of.jpg')"
+       data-behavior="4">
+    
+      <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      Lessons in Programming: Learning To Get Uncomfortable
+    </h1>
+  
+  <div class="postShorten-meta post-meta">
+  
+    <time itemprop="datePublished" datetime="2017-07-23T00:49:02-04:00">
+      
+  
+  
+  
+  
+    July 23, 2017
+  
+
+    </time>
+  
+  
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://github.com/zentechnista/ivy-fibonacci/categories/lifeintech">lifeintech</a>
+    
+  
+
+
+</div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>&ldquo;Learning to get uncomfortable.&rdquo; Kind of a weird article topic for a blog post right? There&rsquo;s tons of articles on FOMO (Fear of Missing Out for the uninitiated), ignoring FOMO, sticking on the path of mastery, never giving up, knowing how to give up, etc.</p>
+
+<p></p>
+
+<p>Not withstanding the amount of articles talking about how difficult it can be to code, ways to stay motivated, people who have jumped on and off the wagon, etc. While doing the
+<a href="https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4">#100DaysOfCode Challange</a> I definitely read a lot of those resources myself. My #100DaysOfCode challenge was a lot of fun, even as it got a bit jumbled with other responsibilities such as work, job searching etc.</p>
+
+<p>Within that challenge I learned a lot of amazing new skills (and got an amazing new job as a support engineer!) such as SQL, MySQL, Python, Database Design, and now Golang. I definitely still consider myself an &ldquo;Advanced Beginner&rdquo;, but I feel comfortable enough in my skills regarding database development and taking on small projects using my favored languages (mostly Python &amp; Go still).</p>
+
+<p>Despite everything that I&rsquo;ve learned and all of the new insights I&rsquo;ve gained into programming in general, I wish I had focused on one thing at the onset of my journey: learning to get uncomfortable. Programming is fun, exciting, and one of the most enjoyable hobbies I&rsquo;ve ever picked up. It can also be very difficult and frustrating at times. It&rsquo;s easy to try to &lsquo;get around&rsquo; the difficulty but either trying the next shiny new language or switching to a different topic (I&rsquo;ve done it myself a few times), but in the interests of <a href="https://firesidetech.wordpress.com/2017/03/03/the-developers-journey-to-mastery/">Mastery-Based Learning</a> it&rsquo;s important to learn how to be uncomfortable with programming at times.</p>
+
+<p>If this doesn&rsquo;t relate to you at all - awesome! Keep programming and having fun. But if at times programming makes you feel like this:</p>
+
+<p><img src="http://res.cloudinary.com/dgyz97es2/image/upload/v1500785669/ana-martin-85015_gux5w8.jpg" alt="Sleepy Dog" /></p>
+
+<p>Then below are a few tips on how to get you through your coding hurdles, and how to keep your learn to code journey fun.</p>
+
+<h2 id="allow-yourself-to-take-breaks">Allow yourself to take breaks</h2>
+
+<p><img src="https://firesidetech.files.wordpress.com/2017/05/kyle-ryan-16660.jpg" alt="Relaxing" /></p>
+
+<p>This one seems a bit counter intuitive at first - why would you want to take breaks on your coding journey when you&rsquo;re trying to get skilled as fast as possible?</p>
+
+<p>It&rsquo;s easy, especially when you&rsquo;re doing a timed coding challenge to think of everything as a sprint. Instead of the usual marathon comparison, I encourage people to think of coding as writing a thesis or a similarly long dissertation. If you&rsquo;ve written a thesis or know someone who&rsquo;s written a thesis, you know that they&rsquo;re taking on a long project on a topic that typically ranges from highly specialized to widely comprehensive. At times it can get very dry, and even at its highest points there&rsquo;s a level of understanding that you&rsquo;re always learning about the topics and that your research is ongoing.</p>
+
+<p>Programming can be similar to this - and especially if you&rsquo;re juggling working full time, school, family, and other life responsibilities, the difficulty can weigh on you. That&rsquo;s why it&rsquo;s important to know when to take a short break from programming. It can be a few days, or maybe just a week where you review concepts instead of actively trying to struggle through a new concept. The point is to take your time, and if you take a break for a few days instead of ramming through new concepts, that just gives it more time for you to comprehend them.</p>
+
+<h2 id="find-the-best-learning-style-for-you">Find the best learning style for you</h2>
+
+<p><img src="https://firesidetech.files.wordpress.com/2017/05/aaron-burden-236415.jpg" alt="Reading" /></p>
+
+<p>There&rsquo;s a lot of literature on learning styles, but for programming in particular its incredibly important to be able to fully understand the material - and even more importantly, having a path/resource to answer questions when you&rsquo;re stuck.</p>
+
+<p>I really encourage new (and intermediate) coders to try a variety of resources to learn to code. Maybe it&rsquo;s something like Free Code Camp, or maybe you prefer video-style instructions such as Coursera, EdX, or Udemy. Books, documentation, in-person classes, and boot-camps are all valid styles of learning.</p>
+
+<p>It depends on how self-directed you are and how much mentor ship you&rsquo;d like to rely on. And this takes time - it may be months or a year until you find the best mix of resources for you.</p>
+
+<p>If you&rsquo;re interested in figuring out your learning style, you can get started with this <a href="http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml">quiz</a>.</p>
+
+<h2 id="review-the-tools-in-your-toolbox">Review the tools in your toolbox</h2>
+
+<p><img src="https://firesidetech.files.wordpress.com/2017/05/la-compagnie-robinson-239140.jpg" alt="toolbox" /></p>
+
+<p>One of the most common things new programmers hear is &ldquo;to improve, start working on your own projects.&rdquo; This can be really frustrating, especially because more often than not, you don&rsquo;t know where to start. Often, new programmers over or understate their abilities, which leads them to working on projects that end up being either too simple and keeping them in their comfort zone, or too difficult and pushes people to give up.</p>
+
+<p>To combat this, keep a log of all of the information you&rsquo;ve gained up to this point. I like to recap at the end of every week what I&rsquo;ve learned so far outside of the standard #100DaysOfCode challenge. Log your skills, new insights, and any tricks or tips you&rsquo;ve learned since then. Keeping a running list of your current skills will allow you to assess what types of projects you may be suited for - for example, taking on the Free Code Camp algorithms versus Open Source Society projects.</p>
+
+<h2 id="learn-to-love-the-struggle">Learn to love the struggle</h2>
+
+<p><img src="https://firesidetech.files.wordpress.com/2017/05/sandis-helvigs-115107.jpg" alt="struggle" /></p>
+
+<p>This is probably the most obvious, but also the most important. Like any skill, the path to programming will involve lots of long nights, hair-pulling, intense focus, pushing yourself beyond your comfort zone, and joining an amazing community of fellow learners.</p>
+
+<p>Understand that it&rsquo;s OK to struggle, and OK to have days where you just want to give up. To take a quote from the fantastic <a href="https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd">Learning to Code: When It Gets Dark</a>  article by Andrew Kalloway, remember this:</p>
+
+<blockquote>
+<p>Imagine how many people out of those who have started coding on roughly the same day as you did have already quit — or will quit today — giving in to the same temptation to stop the &gt; pain and discomfort of learning.</p>
+</blockquote>
+
+<p>For as long as you&rsquo;ve kept on this journey, think about how much you&rsquo;ve learned since you started. As concepts get clearer, keep on that path and push forward. At times, it&rsquo;ll still feel like a slog, but every day you&rsquo;ve continued to code is another day pushing you towards your eventual goal of becoming a developer.</p>
+
+<p>As always, I leave you with a programming quote. Happy coding!</p>
+
+<blockquote>
+<p>&ldquo;The key to efficient development is to &lsquo;make interesting new mistakes&rsquo;.&rdquo;
+- Tom Love</p>
+</blockquote>
+
+<p>Quote courtesy of <a href="https://twitter.com/CodeWisdom/status/859468304720834561">CodeWisdom</a></p>
+
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@antilumen?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Robert Wiedemann"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Robert Wiedemanns</span></a>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://github.com/zentechnista/ivy-fibonacci/tags/codenewbies/">codenewbies</a>
+
+  <a class="tag tag--primary tag--small" href="https://github.com/zentechnista/ivy-fibonacci/tags/coding/">coding</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://github.com/zentechnista/ivy-fibonacci/2017/07/sprints-marathons-and-code/" data-tooltip="Sprints, Marathons, and Code">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2017 Ivy DeWitt. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://github.com/zentechnista/ivy-fibonacci/2017/07/sprints-marathons-and-code/" data-tooltip="Sprints, Marathons, and Code">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <ul class="share-options">
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+        <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+        <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fgithub.com%2fzentechnista%2fivy-fibonacci%2f2017%2f07%2flessons-in-programming-learning-to-get-uncomfortable%2f">
+        <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/c2c4f86b33c14ee5e3cbdcd169473d8a?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Ivy DeWitt</h4>
+    
+      <div id="about-card-bio">Gopher, Pythonista, and proud Pomeranian-Sheltie owner.</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Client Support Engineer @ Curalate
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        U.S.A.
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://github.com/zentechnista/ivy-fibonacci/2017/07/lessons-in-programming-learning-to-get-uncomfortable/">
+                <h3 class="media-heading">Lessons in Programming: Learning To Get Uncomfortable</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>&ldquo;Learning to get uncomfortable.&rdquo; Kind of a weird article topic for a blog post right? There&rsquo;s tons of articles on FOMO (Fear of Missing Out for the uninitiated), ignoring FOMO, sticking on the path of mastery, never giving up, knowing how to give up, etc.</p>
+
+<p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://github.com/zentechnista/ivy-fibonacci/2017/07/sprints-marathons-and-code/">
+                <h3 class="media-heading">Sprints, Marathons, and Code</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Roughly about 3 months ago to the day, I made an exciting decision to leave my previous job to join an e-commerce and social analytics startup. It wasn&rsquo;t a particularly difficult decision - I&rsquo;m pretty sure wanting to hide under a rock ever Monday morning is <em>not</em> a great sign that you&rsquo;re enjoying your current position - but still, it represented a level of change that was both fun and intimidating.</p>
+
+<p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://github.com/zentechnista/ivy-fibonacci/post/">
+                <h3 class="media-heading">Posts</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         3 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('http://res.cloudinary.com/dgyz97es2/image/upload/v1500785028/tim-mossholder-244857_vnwsff.jpg');"></div>
+  
+
+
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.js"></script>
+
+
+<script src="https://github.com/zentechnista/ivy-fibonacci/js/script-wl33z0n6ocaypepiqrazthtivfrliqijej4rq8ek8gvrv1awftmgjuv8k4zc.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight').each(function(i, block) {
+    var code = "";
+    hljs.highlightAuto(block.innerText).value.split(/\r\n|\r|\n/).forEach(function(line) {
+      code += "<span class=\"line\">" + line + "</span><br>";
+    });
+    if (code.length > 0) {
+      block.innerHTML = code;  
+    }
+  });
+  $('pre > code').each(function(i, block) {
+    $(this).addClass('codeblock');
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/github.com\/zentechnista\/ivy-fibonacci\/2017\/07\/lessons-in-programming-learning-to-get-uncomfortable\/';
+          
+            this.page.identifier = '\/2017\/07\/lessons-in-programming-learning-to-get-uncomfortable\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'ivyfibonacci-com';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+
+    
+  </body>
+</html>
+
