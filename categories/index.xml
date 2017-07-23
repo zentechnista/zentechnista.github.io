@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ivy Fibonacci</title>
-    <link>https://github.com/zentechnista/ivy-fibonacci/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Ivy Fibonacci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://github.com/zentechnista/ivy-fibonacci/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lifeintech</title>
-      <link>https://github.com/zentechnista/ivy-fibonacci/categories/lifeintech/</link>
+      <link>/categories/lifeintech/</link>
       <pubDate>Sun, 23 Jul 2017 00:49:02 -0400</pubDate>
       
-      <guid>https://github.com/zentechnista/ivy-fibonacci/categories/lifeintech/</guid>
+      <guid>/categories/lifeintech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>https://github.com/zentechnista/ivy-fibonacci/categories/programming/</link>
+      <link>/categories/programming/</link>
       <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
       
-      <guid>https://github.com/zentechnista/ivy-fibonacci/categories/programming/</guid>
+      <guid>/categories/programming/</guid>
       <description></description>
     </item>
     

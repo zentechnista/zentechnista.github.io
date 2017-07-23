@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ivy Fibonacci</title>
-    <link>https://github.com/zentechnista/ivy-fibonacci/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Ivy Fibonacci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Jul 2017 00:49:02 -0400</lastBuildDate>
     
-	<atom:link href="https://github.com/zentechnista/ivy-fibonacci/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Codenewbies</title>
-      <link>https://github.com/zentechnista/ivy-fibonacci/tags/codenewbies/</link>
+      <link>/tags/codenewbies/</link>
       <pubDate>Sun, 23 Jul 2017 00:49:02 -0400</pubDate>
       
-      <guid>https://github.com/zentechnista/ivy-fibonacci/tags/codenewbies/</guid>
+      <guid>/tags/codenewbies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coding</title>
-      <link>https://github.com/zentechnista/ivy-fibonacci/tags/coding/</link>
+      <link>/tags/coding/</link>
       <pubDate>Sun, 23 Jul 2017 00:49:02 -0400</pubDate>
       
-      <guid>https://github.com/zentechnista/ivy-fibonacci/tags/coding/</guid>
+      <guid>/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://github.com/zentechnista/ivy-fibonacci/tags/golang/</link>
+      <link>/tags/golang/</link>
       <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
       
-      <guid>https://github.com/zentechnista/ivy-fibonacci/tags/golang/</guid>
+      <guid>/tags/golang/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lifeintech on Ivy Fibonacci</title>
-    <link>https://github.com/zentechnista/ivy-fibonacci/categories/lifeintech/</link>
+    <link>/categories/lifeintech/</link>
     <description>Recent content in Lifeintech on Ivy Fibonacci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Jul 2017 00:49:02 -0400</lastBuildDate>
     
-	<atom:link href="https://github.com/zentechnista/ivy-fibonacci/categories/lifeintech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/lifeintech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lessons in Programming: Learning To Get Uncomfortable</title>
-      <link>https://github.com/zentechnista/ivy-fibonacci/2017/07/lessons-in-programming-learning-to-get-uncomfortable/</link>
+      <link>/2017/07/lessons-in-programming-learning-to-get-uncomfortable/</link>
       <pubDate>Sun, 23 Jul 2017 00:49:02 -0400</pubDate>
       
-      <guid>https://github.com/zentechnista/ivy-fibonacci/2017/07/lessons-in-programming-learning-to-get-uncomfortable/</guid>
+      <guid>/2017/07/lessons-in-programming-learning-to-get-uncomfortable/</guid>
       <description>&lt;p&gt;&amp;ldquo;Learning to get uncomfortable.&amp;rdquo; Kind of a weird article topic for a blog post right? There&amp;rsquo;s tons of articles on FOMO (Fear of Missing Out for the uninitiated), ignoring FOMO, sticking on the path of mastery, never giving up, knowing how to give up, etc.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Sprints, Marathons, and Code</title>
-      <link>https://github.com/zentechnista/ivy-fibonacci/2017/07/sprints-marathons-and-code/</link>
+      <link>/2017/07/sprints-marathons-and-code/</link>
       <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
       
-      <guid>https://github.com/zentechnista/ivy-fibonacci/2017/07/sprints-marathons-and-code/</guid>
+      <guid>/2017/07/sprints-marathons-and-code/</guid>
       <description>&lt;p&gt;Roughly about 3 months ago to the day, I made an exciting decision to leave my previous job to join an e-commerce and social analytics startup. It wasn&amp;rsquo;t a particularly difficult decision - I&amp;rsquo;m pretty sure wanting to hide under a rock ever Monday morning is &lt;em&gt;not&lt;/em&gt; a great sign that you&amp;rsquo;re enjoying your current position - but still, it represented a level of change that was both fun and intimidating.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

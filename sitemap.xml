@@ -3,69 +3,69 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/2017/07/lessons-in-programming-learning-to-get-uncomfortable/</loc>
+    <loc>/2017/07/lessons-in-programming-learning-to-get-uncomfortable/</loc>
     <lastmod>2017-07-23T00:49:02-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/2017/07/sprints-marathons-and-code/</loc>
+    <loc>/2017/07/sprints-marathons-and-code/</loc>
     <lastmod>2017-07-23T00:48:30-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/archives/</loc>
+    <loc>/archives/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/tags/codenewbies/</loc>
+    <loc>/tags/codenewbies/</loc>
     <lastmod>2017-07-23T00:49:02-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/tags/coding/</loc>
+    <loc>/tags/coding/</loc>
     <lastmod>2017-07-23T00:49:02-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/tags/golang/</loc>
-    <lastmod>2017-07-23T00:48:30-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/categories/lifeintech/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/post/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/categories/programming/</loc>
+    <loc>/tags/golang/</loc>
     <lastmod>2017-07-23T00:48:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/zentechnista/ivy-fibonacci/tags/</loc>
+    <loc>/</loc>
+    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/lifeintech/</loc>
+    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2017-07-23T00:48:30-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2017-07-23T00:49:02-04:00</lastmod>
     <priority>0</priority>
   </url>
