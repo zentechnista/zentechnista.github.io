@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/07/lessions-in-programming-giving-yourself-credit/</loc>
+    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/07/lessons-in-programming-learning-to-get-uncomfortable/</loc>
     <lastmod>2017-07-23T00:49:02-04:00</lastmod>
   </url>
@@ -23,14 +28,20 @@
   </url>
   
   <url>
+    <loc>/tags/codechronicles/</loc>
+    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/codenewbies/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/coding/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <lastmod>2017-07-23T00:48:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -41,14 +52,20 @@
   </url>
   
   <url>
+    <loc>/tags/impostersyndrome/</loc>
+    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/lifeintech/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -60,13 +77,13 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-07-23T00:49:02-04:00</lastmod>
+    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
