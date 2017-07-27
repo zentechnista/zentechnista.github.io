@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webdesign on zentechnista</title>
+    <link>/categories/webdesign/</link>
+    <description>Recent content in Webdesign on zentechnista</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jul 2017 23:31:32 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/webdesign/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prismastic Designs</title>
+      <link>/2017/07/prismastic-designs/</link>
+      <pubDate>Wed, 26 Jul 2017 23:31:32 -0400</pubDate>
+      
+      <guid>/2017/07/prismastic-designs/</guid>
+      <description>&lt;p&gt;One of the most exciting (and difficult) parts of pursing any career is to step out of your comfort zone and start working towards your goals. There’s the mix of ‘am I going to be taken seriously‘, ‘am I truly ready for this‘, etc. But like all things, sometimes you just need to get your feet wet in order to make any progress and move forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

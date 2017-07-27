@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/07/prismastic-designs/</loc>
+    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/07/lessons-in-programming-giving-yourself-credit/</loc>
     <lastmod>2017-07-24T06:52:10-04:00</lastmod>
   </url>
@@ -35,13 +40,19 @@
   
   <url>
     <loc>/tags/codenewbies/</loc>
-    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/coding/</loc>
     <lastmod>2017-07-23T00:48:30-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/freelancing/</loc>
+    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -65,7 +76,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -82,8 +93,14 @@
   </url>
   
   <url>
+    <loc>/categories/webdesign/</loc>
+    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
     <priority>0</priority>
   </url>
   
