@@ -6,7 +6,7 @@
     <description>Recent content in Tags on zentechnista</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jul 2017 06:52:10 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jul 2017 19:11:03 -0400</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Codechronicles</title>
       <link>/tags/codechronicles/</link>
-      <pubDate>Mon, 24 Jul 2017 06:52:10 -0400</pubDate>
+      <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
       <guid>/tags/codechronicles/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Codenewbies</title>
       <link>/tags/codenewbies/</link>
-      <pubDate>Wed, 26 Jul 2017 23:31:32 -0400</pubDate>
+      <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
       <guid>/tags/codenewbies/</guid>
       <description></description>
@@ -50,7 +50,7 @@
     <item>
       <title>Golang</title>
       <link>/tags/golang/</link>
-      <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
+      <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
       <guid>/tags/golang/</guid>
       <description></description>
@@ -62,24 +62,6 @@
       <pubDate>Mon, 24 Jul 2017 06:52:10 -0400</pubDate>
       
       <guid>/tags/impostersyndrome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag1</title>
-      <link>/tags/tag1/</link>
-      <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
-      
-      <guid>/tags/tag1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag2</title>
-      <link>/tags/tag2/</link>
-      <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
-      
-      <guid>/tags/tag2/</guid>
       <description></description>
     </item>
     

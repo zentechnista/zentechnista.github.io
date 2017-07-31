@@ -45,13 +45,13 @@
   
   <url>
     <loc>/tags/codechronicles/</loc>
-    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/codenewbies/</loc>
-    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,7 +69,7 @@
   
   <url>
     <loc>/tags/golang/</loc>
-    <lastmod>2017-07-23T00:48:30-04:00</lastmod>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,20 +104,8 @@
   </url>
   
   <url>
-    <loc>/tags/tag1/</loc>
-    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tag2/</loc>
-    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
