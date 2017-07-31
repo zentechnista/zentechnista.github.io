@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on zentechnista</title>
-    <link>/tags/</link>
+    <link>https://zentechnista.github.io/tags/</link>
     <description>Recent content in Tags on zentechnista</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jul 2017 19:11:03 -0400</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zentechnista.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Codechronicles</title>
-      <link>/tags/codechronicles/</link>
+      <link>https://zentechnista.github.io/tags/codechronicles/</link>
       <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
-      <guid>/tags/codechronicles/</guid>
+      <guid>https://zentechnista.github.io/tags/codechronicles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Codenewbies</title>
-      <link>/tags/codenewbies/</link>
+      <link>https://zentechnista.github.io/tags/codenewbies/</link>
       <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
-      <guid>/tags/codenewbies/</guid>
+      <guid>https://zentechnista.github.io/tags/codenewbies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coding</title>
-      <link>/tags/coding/</link>
+      <link>https://zentechnista.github.io/tags/coding/</link>
       <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
       
-      <guid>/tags/coding/</guid>
+      <guid>https://zentechnista.github.io/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Freelancing</title>
-      <link>/tags/freelancing/</link>
+      <link>https://zentechnista.github.io/tags/freelancing/</link>
       <pubDate>Wed, 26 Jul 2017 23:31:32 -0400</pubDate>
       
-      <guid>/tags/freelancing/</guid>
+      <guid>https://zentechnista.github.io/tags/freelancing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>/tags/golang/</link>
+      <link>https://zentechnista.github.io/tags/golang/</link>
       <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
-      <guid>/tags/golang/</guid>
+      <guid>https://zentechnista.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Impostersyndrome</title>
-      <link>/tags/impostersyndrome/</link>
+      <link>https://zentechnista.github.io/tags/impostersyndrome/</link>
       <pubDate>Mon, 24 Jul 2017 06:52:10 -0400</pubDate>
       
-      <guid>/tags/impostersyndrome/</guid>
+      <guid>https://zentechnista.github.io/tags/impostersyndrome/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on zentechnista</title>
-    <link>/tags/golang/</link>
+    <link>https://zentechnista.github.io/tags/golang/</link>
     <description>Recent content in Golang on zentechnista</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jul 2017 19:11:03 -0400</lastBuildDate>
     
-	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zentechnista.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ten Minutes Of Go</title>
-      <link>/2017/07/ten-minutes-of-go/</link>
+      <link>https://zentechnista.github.io/2017/07/ten-minutes-of-go/</link>
       <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
-      <guid>/2017/07/ten-minutes-of-go/</guid>
+      <guid>https://zentechnista.github.io/2017/07/ten-minutes-of-go/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s probably no secret by now that I am a big fan of Go (also known as Golang), an open source programming language that is known for its speed and efficiency. As we move towards &lt;a href=&#34;https://blog.golang.org/toward-go2&#34;&gt;Go 2&lt;/a&gt; and the eventual nuances and challenges that will come with its newest iteration, I want to take a few minutes to talk about what I think makes Go so special.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Sprints, Marathons, and Code</title>
-      <link>/2017/07/sprints-marathons-and-code/</link>
+      <link>https://zentechnista.github.io/2017/07/sprints-marathons-and-code/</link>
       <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
       
-      <guid>/2017/07/sprints-marathons-and-code/</guid>
+      <guid>https://zentechnista.github.io/2017/07/sprints-marathons-and-code/</guid>
       <description>&lt;p&gt;Roughly about 3 months ago to the day, I made an exciting decision to leave my previous job to join an e-commerce and social analytics startup. It wasn&amp;rsquo;t a particularly difficult decision - I&amp;rsquo;m pretty sure wanting to hide under a rock ever Monday morning is &lt;em&gt;not&lt;/em&gt; a great sign that you&amp;rsquo;re enjoying your current position - but still, it represented a level of change that was both fun and intimidating.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on zentechnista</title>
-    <link>/categories/</link>
+    <link>https://zentechnista.github.io/categories/</link>
     <description>Recent content in Categories on zentechnista</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zentechnista.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Category</title>
-      <link>/categories/category/</link>
+      <link>https://zentechnista.github.io/categories/category/</link>
       <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
-      <guid>/categories/category/</guid>
+      <guid>https://zentechnista.github.io/categories/category/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lifeintech</title>
-      <link>/categories/lifeintech/</link>
+      <link>https://zentechnista.github.io/categories/lifeintech/</link>
       <pubDate>Mon, 24 Jul 2017 06:52:10 -0400</pubDate>
       
-      <guid>/categories/lifeintech/</guid>
+      <guid>https://zentechnista.github.io/categories/lifeintech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>/categories/programming/</link>
+      <link>https://zentechnista.github.io/categories/programming/</link>
       <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
       
-      <guid>/categories/programming/</guid>
+      <guid>https://zentechnista.github.io/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Subcategory</title>
-      <link>/categories/subcategory/</link>
+      <link>https://zentechnista.github.io/categories/subcategory/</link>
       <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
-      <guid>/categories/subcategory/</guid>
+      <guid>https://zentechnista.github.io/categories/subcategory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Webdesign</title>
-      <link>/categories/webdesign/</link>
+      <link>https://zentechnista.github.io/categories/webdesign/</link>
       <pubDate>Wed, 26 Jul 2017 23:31:32 -0400</pubDate>
       
-      <guid>/categories/webdesign/</guid>
+      <guid>https://zentechnista.github.io/categories/webdesign/</guid>
       <description></description>
     </item>
     
