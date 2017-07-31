@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2017/07/ten-minutes-of-go/</loc>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/07/prismastic-designs/</loc>
     <lastmod>2017-07-26T23:31:32-04:00</lastmod>
   </url>
@@ -29,6 +34,12 @@
   
   <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/category/</loc>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -76,13 +87,31 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/programming/</loc>
     <lastmod>2017-07-23T00:48:30-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/subcategory/</loc>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tag1/</loc>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tag2/</loc>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -100,7 +129,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-07-26T23:31:32-04:00</lastmod>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
