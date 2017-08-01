@@ -11,18 +11,9 @@
     
     
     <item>
-      <title>Category</title>
-      <link>https://zentechnista.github.io/categories/category/</link>
-      <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
-      
-      <guid>https://zentechnista.github.io/categories/category/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Lifeintech</title>
       <link>https://zentechnista.github.io/categories/lifeintech/</link>
-      <pubDate>Mon, 24 Jul 2017 06:52:10 -0400</pubDate>
+      <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
       
       <guid>https://zentechnista.github.io/categories/lifeintech/</guid>
       <description></description>
@@ -34,15 +25,6 @@
       <pubDate>Sun, 23 Jul 2017 00:48:30 -0400</pubDate>
       
       <guid>https://zentechnista.github.io/categories/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Subcategory</title>
-      <link>https://zentechnista.github.io/categories/subcategory/</link>
-      <pubDate>Sun, 30 Jul 2017 19:11:03 -0400</pubDate>
-      
-      <guid>https://zentechnista.github.io/categories/subcategory/</guid>
       <description></description>
     </item>
     

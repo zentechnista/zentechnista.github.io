@@ -38,12 +38,6 @@
   </url>
   
   <url>
-    <loc>https://zentechnista.github.io/categories/category/</loc>
-    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://zentechnista.github.io/tags/codechronicles/</loc>
     <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
@@ -81,7 +75,7 @@
   
   <url>
     <loc>https://zentechnista.github.io/categories/lifeintech/</loc>
-    <lastmod>2017-07-24T06:52:10-04:00</lastmod>
+    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,12 +88,6 @@
   <url>
     <loc>https://zentechnista.github.io/categories/programming/</loc>
     <lastmod>2017-07-23T00:48:30-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://zentechnista.github.io/categories/subcategory/</loc>
-    <lastmod>2017-07-30T19:11:03-04:00</lastmod>
     <priority>0</priority>
   </url>
   
