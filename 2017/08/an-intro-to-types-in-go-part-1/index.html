@@ -23,27 +23,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.25.1">
     <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
-    <title>Prismastic Designs</title>
+    <title>An Intro To Types In Go Part 1</title>
     <meta name="author" content="Ivy DeWitt">
-    <meta name="keywords" content="webdesign, freelancing">
+    <meta name="keywords" content="tech, golang, programmingconcepts">
 
     <link rel="icon" href="https://res.cloudinary.com/dgyz97es2/image/upload/v1501472100/favicon_k80rwy.ico">
     
 
     
-    <meta name="description" content="One of the most exciting (and difficult) parts of pursing any career is to step out of your comfort zone and start working towards your goals. There’s the mix of ‘am I going to be taken seriously‘, ‘am I truly ready for this‘, etc. But like all things, sometimes you just need to get your feet wet in order to make any progress and move forward.
+    <meta name="description" content="Before Go, I had primarily programmed in JavaScript and Python which had the fun distinction of being dynamically typed languages. When I moved to Go, I hit two specific roadblocks: 1) not fully understanding the difference between dynamic vs static languages and 2) and honestly, why should I be concerned about the difference? So naturally, I decided to create a blog post about static vs dynamic languages, and what that means for Go newbies.
 
 ">
-    <meta property="og:description" content="One of the most exciting (and difficult) parts of pursing any career is to step out of your comfort zone and start working towards your goals. There’s the mix of ‘am I going to be taken seriously‘, ‘am I truly ready for this‘, etc. But like all things, sometimes you just need to get your feet wet in order to make any progress and move forward.
+    <meta property="og:description" content="Before Go, I had primarily programmed in JavaScript and Python which had the fun distinction of being dynamically typed languages. When I moved to Go, I hit two specific roadblocks: 1) not fully understanding the difference between dynamic vs static languages and 2) and honestly, why should I be concerned about the difference? So naturally, I decided to create a blog post about static vs dynamic languages, and what that means for Go newbies.
 
 ">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Prismastic Designs">
-    <meta property="og:url" content="/2017/07/prismastic-designs/">
+    <meta property="og:title" content="An Intro To Types In Go Part 1">
+    <meta property="og:url" content="/2017/08/an-intro-to-types-in-go-part-1/">
     <meta property="og:site_name" content="zentechnista">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="zentechnista">
-    <meta name="twitter:description" content="One of the most exciting (and difficult) parts of pursing any career is to step out of your comfort zone and start working towards your goals. There’s the mix of ‘am I going to be taken seriously‘, ‘am I truly ready for this‘, etc. But like all things, sometimes you just need to get your feet wet in order to make any progress and move forward.
+    <meta name="twitter:description" content="Before Go, I had primarily programmed in JavaScript and Python which had the fun distinction of being dynamically typed languages. When I moved to Go, I hit two specific roadblocks: 1) not fully understanding the difference between dynamic vs static languages and 2) and honestly, why should I be concerned about the difference? So naturally, I decided to create a blog post about static vs dynamic languages, and what that means for Go newbies.
 
 ">
     
@@ -59,10 +59,10 @@
     
 
     
-      <meta property="og:image" content="https://firesidetech.files.wordpress.com/2017/01/screen-shot-2017-01-22-at-10-58-17-pm.png">
+      <meta property="og:image" content="https://firesidetech.files.wordpress.com/2017/08/leo-fosdal-113874.jpg">
     
     
-      <meta property="og:image" content="https://firesidetech.files.wordpress.com/2017/02/hi5dx2obas-nasa.jpg">
+      <meta property="og:image" content="https://firesidetech.files.wordpress.com/2017/08/leo-fosdal-113874.jpg">
     
     
 
@@ -225,24 +225,24 @@ ga('send', 'pageview');
   <div class="post-header-cover
               text-center
               "
-       style="background-image:url('https://firesidetech.files.wordpress.com/2017/02/hi5dx2obas-nasa.jpg')"
+       style="background-image:url('https://firesidetech.files.wordpress.com/2017/08/leo-fosdal-113874.jpg')"
        data-behavior="4">
     
       <div class="post-header main-content-wrap text-center">
   
     <h1 class="post-title" itemprop="headline">
-      Prismastic Designs
+      An Intro To Types In Go Part 1
     </h1>
   
   <div class="postShorten-meta post-meta">
   
-    <time itemprop="datePublished" datetime="2017-07-26T23:31:32-04:00">
+    <time itemprop="datePublished" datetime="2017-08-23T20:57:45-04:00">
       
   
   
   
   
-    July 26, 2017
+    August 23, 2017
   
 
     </time>
@@ -252,7 +252,7 @@ ga('send', 'pageview');
   
     <span>in</span>
     
-      <a class="category-link" href="https://zentechnista.github.io/categories/webdesign">webdesign</a>
+      <a class="category-link" href="https://zentechnista.github.io/categories/lifeintech">lifeintech</a>
     
   
 
@@ -273,53 +273,164 @@ ga('send', 'pageview');
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p>One of the most exciting (and difficult) parts of pursing any career is to step out of your comfort zone and start working towards your goals. There’s the mix of ‘am I going to be taken seriously‘, ‘am I truly ready for this‘, etc. But like all things, sometimes you just need to get your feet wet in order to make any progress and move forward.</p>
+              <p>Before Go, I had primarily programmed in JavaScript and Python which had the fun distinction of being dynamically typed languages. When I moved to Go, I hit two specific roadblocks: 1) not fully understanding the difference between dynamic vs static languages and 2) and honestly, why should I be concerned about the difference? So naturally, I decided to create a blog post about static vs dynamic languages, and what that means for Go newbies.</p>
 
 <p></p>
 
-<p><img src="https://firesidetech.files.wordpress.com/2017/01/screen-shot-2017-01-22-at-10-58-17-pm.png" alt="site-overlay" /></p>
+<h1 id="part-1-static-vs-dynamic-typing">Part 1: Static vs Dynamic Typing</h1>
 
-<p>In December of 2016, I was lucky enough to have the opportunity to work with my coworker Phil on his <a href="https://www.prism-products.us/">website</a>, an online store where they offer high quality new and used equipment for drummers – i.e. “Do It Yourself meets the Electronic Drum world” style. Prism is a great resource for new/upcoming musicians who need great, yet reasonably priced electronic drums and related equipment. It was an amazing vision, and I was really excited to start working on this project.</p>
+<h1 id="part-2-an-overview-of-primitive-types-coming-soon">Part 2: An Overview of Primitive Types (Coming Soon!)</h1>
 
-<p>When programming and designing sites, I prefer to cover three specific goals at the onset of a projects:</p>
+<h1 id="part-3-an-overview-of-composite-types-coming-soon">Part 3: An Overview of Composite Types (Coming Soon!)</h1>
+
+<h2 id="what-is-a-type">What is a type?</h2>
+
+<p>To start off, it’s useful to have a more comprehensive picture of what types actually are. For fun (well maybe my definition of fun), here’s the definition of types from Wikipedia:</p>
+
+<blockquote>
+<p>&ldquo;“In computer science and computer programming, a data type or simply type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data. Most programming languages support various types of data, for example: real, integer or Boolean. A Data type provides a set of values from which an expression (i.e. variable, function &hellip;) may take its values. The type defines the operations that can be done on the data, the meaning of the data, and the way values of that type can be stored.“</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Data_type">Source - Wikipedia</a></p>
+
+<p>Breaking this down, I recommend thinking about types as containers, all holding a different category of data. I.e. in one category I can put strings, in another Booleans, and in a third arrays. A data type, either in a static or dynamic language simply states what segment/category this piece of data belongs to.
+We’ll be covering the most common types in this section, including the following:</p>
 
 <ul>
-<li><strong>Autonomy &amp; Ease of Use:</strong> How much autonomy does the client want over the site? Do they want to be able to create and update on their own? Or will they request my services whenever a major change needs to be made?</li>
-<li><strong>Format &amp; Platform:</strong> Regarding the initial set-up – will this project be made from the ground up or will it be hosted/created using a CMS such as WordPress or Squarespace?</li>
-<li><strong>Authorship:</strong> How are you managing the site? Who is going to be creating &amp; updating content?</li>
+<li><strong>Primitive Types:</strong> These are your building-block types as I like to call them. Most languages have some iteration of Booleans, integers, floats, and strings, though there may be some variation on the naming conventions and expanding on the numeric types especially.</li>
+<li><strong>Composite Types:</strong> These are types that are composed of more than one data type. While again the terminology changes, the most common types are arrays, objects, etc.</li>
 </ul>
 
-<p>Usually, clients will throw out their ideas and I will provide input and updates afterwards. I also will determine how comfortable the client is with website management as well. After completing the initial discussion process with Phil, I was able to determine the following goals:</p>
+<p>As I mentioned before, some languages provide a wide variety of primitive and composite types. For example, along with bool, string, int, and float64, Go provides bytes and runes, which provide another set of useful tools for coding.
+Now that you’ve gotten a decent overview of what types are, let’s take a look at the core differences of static vs dynamic typing.</p>
+
+<h2 id="what-is-dynamic-vs-static-typing">What is dynamic vs static typing?</h2>
+
+<p>The difference between static vs dynamic typing ultimate refers to at what point in the program are we verifying the logic of the types – also known as type checking.</p>
+
+<p>To elaborate, Type Checking is the process of verifying and placing constraints on types in a program.  This can occur either at compile time (static typing) or runtime (dynamic checking). The purpose of type checking is to reduce the amount of type-related errors as much as possible, and in other words, ensure that if you’re program isn’t running as expected it’s not due to a type error</p>
+
+<p>One the reasons why statically typed languages are popular is that type checking at compile time allows for more swiftly executing code, as a result of the compiler knowing the specific data types being used and overall reduces the need to repeat type checks every time the program is executed.</p>
+
+<p>In contrast, dynamic typing will cause a program to report type errors at runtime, not compile time. Dynamic typing provides a number of benefits, including <a href="https://en.wikipedia.org/wiki/Dynamic_dispatch">dynamic dispatch</a> &amp; <a href="https://en.wikipedia.org/wiki/Metaprogramming">metaprogramming</a>. Additionally, even many static languages have some implementation of dynamic type checking – even Go uses a form of dynamic dispatch with interfaces.</p>
+
+<p>Here’s also a Quora response that gives a brief, if generalized overview of the main differences between the two:</p>
 
 <ul>
-<li><strong>Autonomy and Ease of Use:</strong> After I complete the project, he would have autonomy over updating the site.</li>
-<li><strong>Format &amp; Platform:</strong> I choose Squarespace as the CMS, due to its customizability, ease of use and great, clear-cut documentation.</li>
-<li><strong>Authorship:</strong> Since my coworker will be the sole manager of the site, we didn’t have to focus on different levels of authorship, and can focus on the administrator level for now.</li>
+<li><strong>Dynamic:</strong> slower to run, faster to write, confusing to debug</li>
+<li><strong>Static:</strong> faster to run, slower to write, less prone to bugs</li>
 </ul>
 
-<p>For those unfamiliar with Squarespace, the site allows you to select from a number of custom templates, all of which have some level of e-commerce features (the main point of the site). Luckily, my coworker already had a basic version of the website design via Weebly, so after we decided on a template, I was able to sketch out a basic mockup for the site based on that preset design.</p>
+<p><a href="https://www.quora.com/What-are-the-differences-between-a-dynamic-programming-language-and-a-static-programming-language-Which-one-is-better-or-in-other-words-has-a-better-prospect">Source</a></p>
 
-<p><img src="https://firesidetech.files.wordpress.com/2017/01/prism-mockup1.png" alt="wireframing-example" /></p>
+<h2 id="what-s-the-difference-between-static-dynamic-and-strong-weak-typed-languages">What’s the difference between static/dynamic and strong/weak typed languages?</h2>
 
-<p><img src="https://firesidetech.files.wordpress.com/2017/01/prism-mockup2.png" alt="wireframing-example-dos" /></p>
+<p>Another common source of confusion is the difference between strong/weak typed languages and static/dynamic languages. This confusion typically occurs because a lot of static languages are also strongly typed languages, and vice-versa for weakly typed-dynamic languages.</p>
 
-<p>Once I have the basic mockup and style complete, I usually get down to business and start a free trial. While I have heard of some designers having the client set up the site and then have them give access to you, I personally prefer setting up a trial site and then giving the client access via an administrator link. This protects their privacy, and gives me a chance to do the initial setup and then display it to them after I’ve gotten a working/functional site down.</p>
+<p>At its core, weakly typed languages do not place restrictions on how data types can be mixed, while strongly typed languages place at least one restriction on how data types are mixed.</p>
 
-<p>From there, I start customizing the template. For this project I used the Tremont template, which has a gorgeous slideshow-like home page, but more standard individual and blog pages. One of the most important things to me alongside covering the clients preferences is to promote accessibility and usability on my sites, so I’m always mindful of the color scheme, language choices, and structure of my content when building out a site.</p>
+<p>For example, let’s say we have a function <code>concatCookies()</code> – where we want to add a string and an integer together to tell how many cookies we have in our basket. In JavaScript, my function would look like the following:</p>
 
-<p>After building the template, I spend most of my time within the style editor, ensuring that the color scheme and display are in line with the client’s request. Making sure everything is presented in a sleek and easily digestible way is crucial, especially for an e-commerce site. I also typically make use of the Custom CSS section, as I prefer to add my own styling to the overall layout of the site, and check to make sure it’s compatible across multiple devices and browsers.</p>
+<pre><code class="language-javascript">function concatCookies(num, str) {
+    console.log('I have ' + num + ' of ' + str + ' cookies in my basket!');
+}
+var basketOfCookies = 25;
 
-<p><img src="https://firesidetech.files.wordpress.com/2017/01/screen-shot-2017-01-24-at-8-45-45-pm.png" alt="product-page" /></p>
+var cookies = 'molasses';
 
-<p>After I have a sustainable working model, I’ll send an invite to the client so that they can see the layout and make suggestions and changes. My coworker was already familiar with Squarespace, so he was able to easily jump right in and see the portions that he wanted to change or keep the same. In the end, the final model stayed relatively unchanged from the initial model with the except of styling and minor individual page layout modifications.</p>
+concatCookies(basketOfCookies, cookies);
+</code></pre>
 
-<p>Once the final model is complete, I work on connecting the domain and any underlying accounts that the client wants to add (ex: G-Suite, Google Analytics, Dropbox, etc.). Afterwards, I focus on clearing up any underlying questions regarding the site or Squarespace in general and send over my invoice. It’s incredibly satisfying to see the final version of a product, and both the client and customers can bring the site to life. For example, here’s the gallery page for Prism Products:</p>
+<p><a href="https://jsfiddle.net/g442fo6c/">View in JSFiddle</a></p>
 
-<p><img src="https://firesidetech.files.wordpress.com/2017/01/page-shot-2017-1-24-show.png" alt="gallery-page" /></p>
+<p>I’m able to compile a string and an integer and JavaScript, being the smart language that it is can immediately determine that while basketOfCookies is a number (or int), it can coerce the type to a string in order to print the full string to the console.</p>
 
-<p>This was a really exciting project, and I’m glad I got to work on it as one of my first dives into design and development. I can’t wait to see where <a href="https://www.prism-products.us/">Prism</a> goes, and they have a lot of great products and content that I recommend checking out.</p>
+<p>Go does not afford such luxuries. If I attempt to computer the following:</p>
 
-<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@matthewhenry?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Matthew Henry"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Matthew Henrys</span></a>
+<pre><code class="language-go">package main
+
+import (
+    &quot;fmt&quot;
+)
+
+func main() {
+
+    cookies := &quot;Molasses&quot;
+    basketOfCookies := 25;
+    fmt.Println(concatCookies(cookies, basketOfCookies))
+
+}
+
+func concatCookies(c string, b int) string {
+    m := &quot;I have &quot; + b + &quot; of &quot; + c + &quot; cookies in my basket!&quot;
+    return m
+
+}
+</code></pre>
+
+<p><a href="https://play.golang.org/p/BNbAh3OcWy">View on the Go Playground</a></p>
+
+<p>I get the following scary looking (but surprisingly straightforward) error:</p>
+
+<p><code>invalid operation: &quot;I have &quot; + b (mismatched types string and int)</code></p>
+
+<p>Go is very specific with its typing, and to complete this successfully I’ll actually need to import and entirely different package:</p>
+
+<pre><code class="language-go">
+package main
+
+import (
+    &quot;fmt&quot;
+    &quot;strconv&quot;
+)
+
+func main() {
+
+    cookies := &quot;Molasses&quot;
+    basketOfCookies := 25;
+    fmt.Println(concatCookies(cookies, basketOfCookies))
+}
+
+func concatCookies(c string, b int) string {
+    m := &quot;I have &quot; + strconv.Itoa(b) + &quot; of &quot; + c + &quot; cookies in my basket!&quot;
+    return m
+
+}
+</code></pre>
+
+<p><a href="https://play.golang.org/p/bLCRpI49Zx">View on the Go Playground</a></p>
+
+<p>We&rsquo;ll discuss this in more detail in another section - but note a few things here:</p>
+
+<ol>
+<li>We imported a new package - strconv - in order to add another function that converts an int to a string.</li>
+<li>In Go, we&rsquo;ve explicity declared the types of our paramaters <code>c string, b int</code> and our return value <code>string</code>. In JS, we declared our variables without any explicit type declarations and were on our merry way.</li>
+</ol>
+
+<p>Overall, there’s a lot of benefits to both – some like the freedom &amp; flexibility of weakly typed languages, while others like the constraints from strongly typed languages, but strong/weak typing refers to the restrictions on how data types can be mixed, versus static/dynamic type systems which focus on when the type itself is checked.</p>
+
+<h2 id="which-one-should-i-use-learn">Which one should I use/learn?</h2>
+
+<p>So, after a quick look into what static and dynamic types each bring to the programming table, you’re probably wondering which one you should start to program with.</p>
+
+<p>The answer….. is that it’s most likely worth your time to learn both. At some point, you’re probably going to encounter both over your programming career, and both type systems have their own benefits and downsides. Moving from one type system to another can be confusing at times, and I hope this post cleared up a bit of that haziness for you.</p>
+
+<p>As always, I leave you with a programming quote:</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Trying to outsmart a compiler defeats much of the purpose of using one—Brian Kernighan</p>&mdash; Gerald Weinberg (@JerryWeinberg) <a href="https://twitter.com/JerryWeinberg/status/832014603391553536">February 15, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h2 id="reference-links">Reference Links:</h2>
+
+<p><a href="https://www.quora.com/What-are-the-differences-between-strongly-typed-and-weakly-typed-languages">Quora: Strong vs Weakly Typed Languages</a></p>
+
+<p><a href="https://thesocietea.org/2015/11/programming-concepts-static-vs-dynamic-type-checking/">Programming Concepts: Static vs Dynamic Checking</a></p>
+
+<p><a href="https://golang.org/doc/faq">Golang FAQ</a></p>
+
+<p><a href="https://www.quora.com/What-are-the-differences-between-a-dynamic-programming-language-and-a-static-programming-language-Which-one-is-better-or-in-other-words-has-a-better-prospect">Quora: Dynamic vs Static Languages</a></p>
+
+<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@fozzie?utm_medium=referral&amp;amp;utm_campaign=photographer-credit&amp;amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Leo Fosdal"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Leo Fosdals</span></a>
               
             </div>
           </div>
@@ -333,7 +444,11 @@ ga('send', 'pageview');
                     
   <a class="tag tag--primary tag--small" href="https://zentechnista.github.io/tags/codenewbies/">codenewbies</a>
 
-  <a class="tag tag--primary tag--small" href="https://zentechnista.github.io/tags/freelancing/">freelancing</a>
+  <a class="tag tag--primary tag--small" href="https://zentechnista.github.io/tags/golang/">golang</a>
+
+  <a class="tag tag--primary tag--small" href="https://zentechnista.github.io/tags/javascript/">javascript</a>
+
+  <a class="tag tag--primary tag--small" href="https://zentechnista.github.io/tags/programmingconcepts/">programmingconcepts</a>
 
                   </div>
                 
@@ -345,7 +460,7 @@ ga('send', 'pageview');
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://zentechnista.github.io/2017/07/ten-minutes-of-go/" data-tooltip="Ten Minutes Of Go">
+            <a class="post-action-btn btn btn--disabled">
           
             <i class="fa fa-angle-left"></i>
             <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -353,7 +468,7 @@ ga('send', 'pageview');
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://zentechnista.github.io/2017/07/lessons-in-programming-giving-yourself-credit/" data-tooltip="Lessons in Programming: Giving Yourself Credit">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://zentechnista.github.io/2017/08/151-days-of-code/" data-tooltip="151 Days Of Code">
           
             <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
             <i class="fa fa-angle-right"></i>
@@ -370,17 +485,17 @@ ga('send', 'pageview');
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
           <i class="fa fa-google-plus"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
           <i class="fa fa-facebook-official"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
@@ -416,7 +531,7 @@ ga('send', 'pageview');
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://zentechnista.github.io/2017/07/ten-minutes-of-go/" data-tooltip="Ten Minutes Of Go">
+            <a class="post-action-btn btn btn--disabled">
           
             <i class="fa fa-angle-left"></i>
             <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
@@ -424,7 +539,7 @@ ga('send', 'pageview');
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://zentechnista.github.io/2017/07/lessons-in-programming-giving-yourself-credit/" data-tooltip="Lessons in Programming: Giving Yourself Credit">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://zentechnista.github.io/2017/08/151-days-of-code/" data-tooltip="151 Days Of Code">
           
             <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
             <i class="fa fa-angle-right"></i>
@@ -441,17 +556,17 @@ ga('send', 'pageview');
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
           <i class="fa fa-google-plus"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
           <i class="fa fa-facebook-official"></i>
         </a>
       </li>
       <li class="post-action hide-xs">
-        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
           <i class="fa fa-twitter"></i>
         </a>
       </li>
@@ -472,17 +587,17 @@ ga('send', 'pageview');
       <div id="share-options-bar" class="share-options-bar" data-behavior="4">
   <ul class="share-options">
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
         <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
       </a>
     </li>
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
         <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
       </a>
     </li>
     <li class="share-option">
-      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fzentechnista.github.io%2f2017%2f07%2fprismastic-designs%2f">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fzentechnista.github.io%2f2017%2f08%2fan-intro-to-types-in-go-part-1%2f">
         <i class="fa fa-twitter"></i><span>Share on Twitter</span>
       </a>
     </li>
